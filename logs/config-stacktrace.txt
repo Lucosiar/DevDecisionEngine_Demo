@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "app.py", line 17, in <module>
+    main()
+  File "app.py", line 7, in main
+    settings = load_settings()
+  File "src/config.py", line 6, in load_settings
+    "debug": os.getenv("DEBUG").lower() == "true",
+AttributeError: 'NoneType' object has no attribute 'lower'

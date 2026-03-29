@@ -1,0 +1,40 @@
+{
+  "owner": {
+    "name": "Platform Team",
+    "email": null
+  },
+  "orders": [
+    {
+      "id": "ord-1001",
+      "status": "completed",
+      "items": [
+        {
+          "sku": "KB-001",
+          "price": 59.99,
+          "qty": 1
+        },
+        {
+          "sku": "MS-002",
+          "price": 29.5,
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "ord-1002",
+      "status": "pending",
+      "items": null
+    },
+    {
+      "id": "ord-1003",
+      "status": "cancelled",
+      "items": [
+        {
+          "sku": "HD-003",
+          "price": 120,
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}
