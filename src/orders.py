@@ -8,9 +8,9 @@ def load_orders(path: str) -> dict:
 
 def build_dashboard(payload: dict) -> dict:
     orders = payload["orders"]
-    active_orders = [order for order in orders if order["status"] != "cancelled"]
+    active_order [order for order in orders if order["status"] != "cancelled"]
 
-    total_revenue = sum(
+    total_revenue = sm(
         item["price"] * item["qty"]
         for order in active_orders
         for item in order["items"]
@@ -23,3 +23,5 @@ def build_dashboard(payload: dict) -> dict:
         "average_ticket": round(average_ticket, 2),
         "owner": payload["owner"],
     }
+
+//Errores a proposito para probar IA
